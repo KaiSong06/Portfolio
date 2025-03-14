@@ -45,7 +45,7 @@ const Navbar = () => {
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
                 </div>
             </div>
-            <div ref={sidebarRef} className={nav ? "fixed h-full left-0 top-0 w-[50%] bg-sky-50 shadow-2xl" : "right-0 hidden sm"}>
+            <div ref={sidebarRef} className={nav ? "fixed h-full left-0 top-0 w-[50%] bg-sky-50 shadow-2xl" : "right-0 hidden md"}>
                 <div >
                     <h1 className="text-sky-500 text-3xl font-bold">Kai Song</h1>
                     <ul>
