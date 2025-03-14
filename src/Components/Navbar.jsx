@@ -31,7 +31,7 @@ const Navbar = () => {
 
     return (
 
-        <div className="bg-stone-100 fixed w-screen top-0 left-0 z-50">
+        <div className="bg-sky-50 fixed w-screen top-0 left-0 z-50 shadow">
             <div className="flex justify-between items-center max-w-[1200px] mx-auto px-4 h-[60px]">
                 <h1 className="text-sky-500 text-3xl font-bold">Kai Song</h1>
                 <ul className="hidden md:flex ml-auto">
@@ -45,7 +45,7 @@ const Navbar = () => {
                     {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
                 </div>
             </div>
-            <div ref={sidebarRef} className={nav ? "fixed h-full left-0 top-0 w-[50%] bg-gray-200" : "left-[-100%] hidden sm"}>
+            <div ref={sidebarRef} className={nav ? "fixed h-full left-0 top-0 w-[50%] bg-sky-50 shadow-2xl" : "left-[-100%] hidden sm"}>
                 <div >
                     <h1 className="text-sky-500 text-3xl font-bold">Kai Song</h1>
                     <ul>
