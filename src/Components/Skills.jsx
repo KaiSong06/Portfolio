@@ -10,8 +10,8 @@ const Skills = () => {
     return (
         <div className="flex justify-center items-center w-screen h-screen bg-stone-100" id="skills">
             <div className="flex justify-center w-full">
-                <div className="text-md md:text-3xl text-lg">
-                    <h1 className="flex justify-center w-full font-extrabold text-sky-500">
+                <div className="text-md md:text-3xl">
+                    <h1 className="flex justify-center w-full font-extrabold text-sky-500 text-4xl md:text-7xl">
                         My Tech Stack
                     </h1>
                     <div className="grid grid-cols-3 gap-2 w-full ">

@@ -29,7 +29,7 @@ const Projects = () => {
 
     return (
         <div className="relative flex justify-center items-center w-screen h-screen" id="projects">
-            <div className="absolute lg:top-0 lg:text-4xl md:top-15 md:text-2xl top-45 text-lg text-sky-500 font-bold">
+            <div className="absolute lg:top-0 lg:text-7xl md:top-15 md:text-4xl top-35 text-3xl text-sky-500 font-bold">
                 <h1>My Projects</h1>
             </div>
 
