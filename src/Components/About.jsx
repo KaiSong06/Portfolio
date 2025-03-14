@@ -3,8 +3,8 @@ import profilePic from "../assets/profilepicture.jpg"
 
 const About = () => {
     return (
-        <div className="flex justify-center items-center h-screen bg-stone-100 py-16" id="about">
-            <div className="text-black max-w-[1200px] w-full mx-auto px-4">
+        <div className="flex justify-center items-center w-screen h-screen bg-stone-100" id="about">
+            <div className="text-black max-w-[1200px] w-full">
                 <div className="md:grid md:grid-cols-2 sm:py-16">
                     <div className="rounded-xl mt-4 p-5 md:mt-0 text-left flex py-6 md:py-0 shadow-2xl transform">
                         <div className="my-auto mx-auto max-w-[600px]">
@@ -20,7 +20,7 @@ const About = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center ">
+                    <div className="flex justify-center items-center h-full">
                         <img className="rounded-3xl max-w-full h-auto shadow-2xl transform" src={profilePic} width={500} height={400} alt="About me"/>
                     </div>
                 </div>

@@ -2,12 +2,10 @@ import React from "react"
 
 const Contact = () => {
     return (
-        <div className="flex justify-center items-center h-screen bg-stone-100 py-16" id="contact">
+        <div className="flex justify-center items-center w-screen h-screen bg-stone-100 py-16" id="contact">
             <div className="max-w-[1200px] w-full mx-auto px-4">
                 <div className="text-center">
-                    <h2 className="relative flex justify-center  text-4xl font-bold top-10 text-sky-500">Contact Me</h2>
-                </div>  
-
+                    <h2 className="relative flex justify-center items-center md:h-auto h-screen text-4xl font-bold top-70 md:top-0 text-sky-500">Contact Me</h2>
                 <div className="max-w-[800px] mx-auto">
                     <div className="mt-6 bg-stone-100 rounded-xl">
                         <div className="p-10">
@@ -55,6 +53,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            </div>  
         </div>
     )
 }

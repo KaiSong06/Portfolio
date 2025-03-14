@@ -5,8 +5,8 @@ export const cardText1 =
     target="_blank" 
     className="relative flex items-start justify-center h-full text-white text-bold text-2xl">
         <div className="relative flex items-start justify-center h-full text-white text-bold text-2xl">
-            <h2 className="absolute flex justify-center top-10 text-white font-bold text-4xl w-200">Hand Drawing</h2>
-            <p className="flex justify-center items-center h-full w-150">
+            <h2 className="absolute flex justify-center top-0 text-white font-bold md:text-6xl md:w-200 text-xl w-80 md:m-6 m-1">Hand Drawing</h2>
+            <p className="flex justify-center items-center md:text-2xl md:w-150 text-xs h-full w-60 m-2">
                 This project is an interactive hand-drawing application
                  that uses Python, OpenCV, and MediaPipe for real-time
                   hand tracking. Users can draw on a virtual canvas by
@@ -21,8 +21,8 @@ export const cardText2 =
     target="_blank" 
     className="relative flex items-start justify-center h-full text-white text-bold text-2xl">
         <div className="relative flex items-start justify-center h-full text-white text-bold text-2xl">
-            <h2 className="absolute flex justify-center top-10 text-white font-bold text-4xl w-200">FeynMine.ai</h2>
-            <p className="flex justify-center items-center h-full w-150">
+            <h2 className="absolute flex justify-center text-white font-bold md:text-6xl md:w-200 text-xl w-80 md:m-6 m-1">FeynMine.ai</h2>
+            <p className="flex justify-center items-center md:text-2xl md:w-150 text-xs h-full w-60 m-2">
                 This project was made for UOttahack 7. 
                   With a team of 4 developers, we created
                     an AI-powered study assistant that listens
@@ -37,8 +37,8 @@ export const cardText3 =
     target="_blank"
     className="relative flex items-start justify-center h-full text-white text-bold text-2xl">
         <div className="relative flex items-start justify-center h-full text-white text-bold text-2xl">
-            <h2 className="absolute flex justify-center top-10 text-white font-bold text-4xl w-200">Ping Check</h2>
-            <p className="flex justify-center items-center h-full w-150">
+            <h2 className="absolute flex justify-center text-white font-bold md:text-6xl md:w-200 text-xl w-80 md:m-6 m-1">Ping Check</h2>
+            <p className="flex justify-center items-center md:text-2xl md:w-150 text-xs h-full w-60 m-2">
                 This project was created to solve a problem of 
                   consistently timed WiFi issues on campus while I was playing League of Legends. 
                     Using Selenium and SQL, I webscraped 10,000+ datapoints to accurately 
