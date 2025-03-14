@@ -50,6 +50,7 @@ const Navbar = () => {
                     <h1 className="text-sky-500 text-3xl font-bold">Kai Song</h1>
                     <ul>
                         <li className="p-1"><a href="#" onClick={closeNav}>Home</a></li>
+                        <li className="p-1"><a href="#skills" onClick={closeNav}>Skills</a></li>
                         <li className="p-1"><a href="#projects" onClick={closeNav}>Projects</a></li>
                         <li className="p-1"><a href="#about" onClick={closeNav}>About</a></li>
                         <li className="p-1"><a href="#contact" onClick={closeNav}>Contact</a></li>
