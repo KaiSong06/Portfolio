@@ -29,8 +29,8 @@ const Projects = () => {
 
     return (
         <div className="relative flex justify-center items-center w-screen h-screen" id="projects">
-            <div className="absolute lg:top-0 lg:text-7xl md:top-15 md:text-4xl top-35 text-3xl text-sky-500 font-bold">
-                <h1>My Projects</h1>
+            <div className="absolute lg:top-0 top-35">
+                <h1 className=" md:top-15 md:text-7xl text-5xl top-35 text-sky-500 font-extrabold">My Projects</h1>
             </div>
 
             <div onClick={() => setCard((prevCard) => handleCards(prevCard, "backward"))}>
@@ -44,7 +44,7 @@ const Projects = () => {
             </div>
 
             <div onClick={() => setCard((prevCard) => handleCards(prevCard, "forward"))}>
-                <IoIosArrowForward className="flex justify-center items-center md:w-40 w-20 h-70 hover:w-[40%] text-sky-500" />
+                <IoIosArrowForward className="flex justify-center items-center md:w-40 w-20 h-70 hover:w-[140%] text-sky-500" />
             </div>
         </div>
     );
